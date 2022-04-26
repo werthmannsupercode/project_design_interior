@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Design Interior</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>H&H</h1>
+            <h2>~ THE INTERIOR STANDARD ~</h2>
+        </div>
+        <img src="assets/img/design-interior-1.jpg" alt="Wohnzimmer mit Kunst in blau">
+    </header>
+    <main>
+        <div class="nav">
+            <img src="assets/img/logo.png" alt="Logo">
+            <nav>
+                <a href="#">H&H</a>
+                <a href="#">OUR STORY</a>
+                <a href="#">DESIGNS</a>
+                <a href="#">CONTACT</a>
+            </nav>
+            <article onclick="slideIn()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </article>
+            <div id="side_menu">
+                <p onclick="slideOut()">x</p>
+                <a href="#">H&H</a>
+                <a href="#">OUR STORY</a>
+                <a href="#">DESIGNS</a>
+                <a href="#">CONTACT</a>
+                <a href="#">PRIVACY</a>
+                <a href="#">TERMS</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+        <section class="story">
+            <img src="assets/img/story.jpg" alt="Wohnzimmer mit Fotografien">
+            <div>
+                <h3>OUR STORY</h3>
+                <p>Furnishing your home can be quite overwhelming at times, at least that's how it was for us.</p>
+                <p> H&H was
+                    born
+                    to help others going through the maze that is interior design.</p>
+                <p> We decided to curate interior design
+                    modern trends, inspirations, tips and tricks from the vast interior collective to help you bring
+                    your
+                    home to life.</p>
+            </div>
+        </section>
+        <section class="featured">
+            <h3>FEATURED </h3>
+            <p>Take a look at some of our featured picks that have made editorial debuts
+            </p>
+            <div>
+                <figure>
+                    <img src="assets/img/features1.jpg" alt="Wohnzimmer in der Luft">
+                    <figcaption>Image by Michal Jarmoluk from Pixabay</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/features2.jpg" alt="Sofa">
+                    <figcaption>Image by StockSnap from Pixabay</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/img/features3.jpg" alt="Wohnzimmer im Wald">
+                    <figcaption>Image by miapirttil from Pixabay</figcaption>
+                </figure>
+            </div>
+            <div>
+                <iframe width="423" height="270" src="https://www.youtube.com/embed/GI71fXmRrLM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>
+                <h3>GET IN TOUCH</h3>
+                <p>We would love to hear from you!</p>
+                <p>If you would like to receive our monthly catalogue subscribe by filling in the form with your name
+                    and
+                    email
+                    address.</p>
+            </div>
+            <form action="" onsubmit="getValues(); return false">
+                <label for="">Name</label>
+                <input type="text" name="Name" id="name" placeholder="Enter name" required>
+                <label for="">Email</label>
+                <input type="email" name="Email" id="email" placeholder="Enter email" required>
+                <label for="">Message</label>
+                <input type="text" name="Message" id="message" placeholder="Optional">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="footerNav">
+            <p>COPYRIGHT 2021</p>
+            <p>CREATED WITH LOVE</p>
+            <nav>
+                <a href="#">PRIVACY</a>
+                <a href="#">TERMS</a>
+                <a href="#">CONTACT</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
