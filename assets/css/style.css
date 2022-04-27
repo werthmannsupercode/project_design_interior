@@ -409,7 +409,7 @@ header div h2 {
     }
 
     .featured div:nth-of-type(1) figure img {
-        width: 80%;
+        width: 100%;
     }
 
     .featured div:nth-of-type(1) figure figcaption {
@@ -421,8 +421,8 @@ header div h2 {
     }
 
     .featured div:nth-of-type(2) iframe {
-        width: 466px;
-        height: 310px;
+        width: 100%;
+        height: auto;
     }
 
     .footer {
