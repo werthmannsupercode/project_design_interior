@@ -417,12 +417,12 @@ header div h2 {
     }
 
     .featured div:nth-of-type(2) {
-        margin-bottom: 15vh;
+        margin-bottom: 0;
     }
 
     .featured div:nth-of-type(2) iframe {
         width: 100%;
-        height: auto;
+        height: 400px;
     }
 
     .footer {
